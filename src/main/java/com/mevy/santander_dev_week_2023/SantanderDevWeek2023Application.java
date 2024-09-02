@@ -7,7 +7,7 @@ import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.servers.Server;
 
 @SpringBootApplication
-@OpenAPIDefinition(servers = { @Server(url = "/", descrption = "Deafult Server URL") })
+@OpenAPIDefinition(servers = { @Server(url = "/", description = "Deafult Server URL") })
 public class SantanderDevWeek2023Application {
 
 	public static void main(String[] args) {
